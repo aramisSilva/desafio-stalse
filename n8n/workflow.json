@@ -1,0 +1,77 @@
+{
+  "name": "Ticket Status Webhook",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "ticket-update",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "4d0fd3a6-2711-4ac9-bec3-a28c2fbbe0bb",
+      "name": "Webhook",
+      "webhookId": "c50ba394-2489-4945-a077-639d743a39ba"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://httpbin.org/post",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "ticket_id",
+              "value": "=={{ $json[\"id\"] }}"
+            },
+            {
+              "name": "status",
+              "value": "=={{ $json[\"status\"] }}"
+            },
+            {
+              "name": "priority",
+              "value": "=={{ $json[\"priority\"] }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        208,
+        0
+      ],
+      "id": "29031dda-e9e8-4572-9e6e-a587cb5e5512",
+      "name": "HTTP Request"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a4b83c05-be92-41e2-b51d-565bb9ff0038",
+  "meta": {
+    "instanceId": "f5b19bf3aa37e6eecd6d30a32a753ec02cd836e6257fac0e684fdcf0827a8072"
+  },
+  "id": "LwYmUkfkNqXKi77r",
+  "tags": []
+}

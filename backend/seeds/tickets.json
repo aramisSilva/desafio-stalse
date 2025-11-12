@@ -1,0 +1,142 @@
+[
+  {
+    "customer_name": "Maria Souza",
+    "channel": "Email",
+    "subject": "Problema com acesso à conta",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "João Pereira",
+    "channel": "WhatsApp",
+    "subject": "Erro no pagamento",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Ana Lima",
+    "channel": "Chat",
+    "subject": "Alteração de endereço",
+    "status": "pending",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Carlos Mendes",
+    "channel": "Email",
+    "subject": "Produto com defeito",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Beatriz Santos",
+    "channel": "Chat",
+    "subject": "Dúvida sobre frete",
+    "status": "resolved",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Rafael Costa",
+    "channel": "WhatsApp",
+    "subject": "Cancelamento de pedido",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Juliana Rodrigues",
+    "channel": "Email",
+    "subject": "Cobrança duplicada",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Pedro Alves",
+    "channel": "Chat",
+    "subject": "Cupom de desconto não funciona",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Fernanda Oliveira",
+    "channel": "WhatsApp",
+    "subject": "Rastreamento do pedido",
+    "status": "open",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Lucas Barbosa",
+    "channel": "Email",
+    "subject": "Produto não corresponde à descrição",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Camila Ferreira",
+    "channel": "Chat",
+    "subject": "Erro ao criar conta",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Thiago Silva",
+    "channel": "WhatsApp",
+    "subject": "Reembolso não processado",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Patricia Martins",
+    "channel": "Email",
+    "subject": "Dúvida sobre garantia",
+    "status": "resolved",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Bruno Ribeiro",
+    "channel": "Chat",
+    "subject": "Problema no aplicativo",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Larissa Campos",
+    "channel": "WhatsApp",
+    "subject": "Troca de produto",
+    "status": "pending",
+    "priority": "low"
+  },
+  {
+    "customer_name": "Rodrigo Nascimento",
+    "channel": "Email",
+    "subject": "Nota fiscal não recebida",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Gabriela Rocha",
+    "channel": "Chat",
+    "subject": "Entrega no endereço errado",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "customer_name": "Felipe Carvalho",
+    "channel": "WhatsApp",
+    "subject": "Produto indisponível",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Isabela Araújo",
+    "channel": "Email",
+    "subject": "Senha não aceita",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "customer_name": "Marcelo Dias",
+    "channel": "Chat",
+    "subject": "Promoção não aplicada",
+    "status": "open",
+    "priority": "high"
+  }
+]

@@ -55,12 +55,12 @@ export default function TicketsPage() {
       <table className="w-full border border-gray-300 rounded">
         <thead>
           <tr className="bg-gray-100">
-            <th className="p-2 text-left">Data</th>
-            <th className="p-2 text-left">Cliente</th>
-            <th className="p-2 text-left">Canal</th>
-            <th className="p-2 text-left">Assunto</th>
+            <th className="p-2 text-left">Created at</th>
+            <th className="p-2 text-left">Customer Name</th>
+            <th className="p-2 text-left">Channel</th>
+            <th className="p-2 text-left">Subject</th>
             <th className="p-2 text-left">Status</th>
-            <th className="p-2 text-left">Prioridade</th>
+            <th className="p-2 text-left">Priority</th>
           </tr>
         </thead>
         <tbody>
